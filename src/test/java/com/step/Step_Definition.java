@@ -46,15 +46,16 @@ public class Step_Definition extends Base_Class {
 		Thread.sleep(10000);
 	    clickElement(hp.getProduct());
 	}
-	@And("user selected product item")
-	public void user_selected_product_item() throws InterruptedException {
-		Thread.sleep(10000);
-	    clickElement(hp.getProductItem());
-	}
+//	@And("user selected product item")
+//	public void user_selected_product_item() throws InterruptedException {
+//		Thread.sleep(10000);
+//	    clickElement(hp.getProductItem());
+//	}
 	@And("user select the size of the product")
 	public void user_select_the_size_of_the_product() throws InterruptedException {
 		Thread.sleep(10000);
-	    hp.getProductSize().click();
+	    //hp.getProductSizes().click();
+		clickElement(hp.getProductSizes());
 	}
     
 	@And("user click add to cart")

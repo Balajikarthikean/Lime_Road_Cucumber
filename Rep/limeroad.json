@@ -1,0 +1,139 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-02T13:36:01.020Z",
+        "line": 4,
+        "name": "Select gender",
+        "description": "",
+        "id": "limitroad-order;select-gender",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 567590300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter url \"https://www.limeroad.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.limeroad.com/\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.step.Step_Definition.user_enter_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3492835600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click Men",
+            "match": {
+              "location": "com.step.Step_Definition.user_click_men()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user select  men option",
+            "match": {
+              "location": "com.step.Step_Definition.user_select_men_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20646506500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user select  Tshirts option",
+            "match": {
+              "location": "com.step.Step_Definition.user_select_Tshirts_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10296843800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user select product",
+            "match": {
+              "location": "com.step.Step_Definition.user_select_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10239367400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user select the size of the product",
+            "match": {
+              "location": "com.step.Step_Definition.user_select_the_size_of_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10234717900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user click add to cart",
+            "match": {
+              "location": "com.step.Step_Definition.user_click_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10291763900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user click Buynow",
+            "match": {
+              "location": "com.step.Step_Definition.user_click_buynow()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "LimitRoad Order",
+    "description": "",
+    "id": "limitroad-order",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/feature/Lime.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

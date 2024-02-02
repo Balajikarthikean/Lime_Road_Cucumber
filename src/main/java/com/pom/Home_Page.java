@@ -99,18 +99,14 @@ public class Home_Page extends Base_Class implements Home_Page_Interface {
 		return product;
 	}
     
-    @FindBy(id=get_product_item_id)
-    private WebElement productItem;
-    public WebElement getProductItem() {
-		return productItem;
-	}
+
 	
-    @FindBy(id=get_product_size_id)
-    private WebElement productSize;
-	
-	public WebElement getProductSize() {
-		return productSize;
+    @FindBy(xpath=get_product_size_xpath)
+    private WebElement productSizes;
+	public WebElement getProductSizes() {
+		return productSizes;
 	}
+    
 	@FindBy(xpath =Add_to_Cart_xpath)
 	private WebElement addtocart;
 	public WebElement getAddtocart() {
