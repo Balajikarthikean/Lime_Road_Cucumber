@@ -93,7 +93,7 @@ public class Home_Page extends Base_Class implements Home_Page_Interface {
 		return TShirts;
 	}
     
-    @FindBy(id =get_product_id)
+    @FindBy(xpath  =get_product_xpath)
     private WebElement product;
     public WebElement getProduct() {
 		return product;

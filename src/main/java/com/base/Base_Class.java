@@ -268,6 +268,7 @@ public class Base_Class {
 	protected static void clickElement(WebElement element) {
 		
 		Actions actions = new Actions(driver);
+		explicitwait(element);
 		actions.click(element).perform();
 	}
 
@@ -424,6 +425,6 @@ public class Base_Class {
 	//explicitwait
 	protected static void explicitwait(WebElement element) {
 		WebDriverWait wait = new WebDriverWait(driver, 100);
-		wait.until(ExpectedConditions.elementToBeClickable(element));
+		wait.until(ExpectedConditions.visibilityOf(element));
 	}
 }
