@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Automation Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 2, 2024 01:07:44 pm</span></a>
+<a href="#"><span class="badge badge-primary">Feb 2, 2024 02:06:03 pm</span></a>
 </li>
 </ul>
 </div>
@@ -97,7 +97,7 @@
           <div class="test-detail">
             <p class="name">LimitRoad Order</p>
             <p class="text-sm">
-              <span>1:07:51 pm</span> / <span>00:00:10:290</span>
+              <span>2:06:07 pm</span> / <span>00:00:34:868</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -106,9 +106,9 @@
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">LimitRoad Order</h5>
-<span class='badge badge-success'>02.02.2024 1:07:51 pm</span>
-<span class='badge badge-danger'>02.02.2024 1:08:01 pm</span>
-<span class='badge badge-default'>00:00:10:290</span>
+<span class='badge badge-success'>02.02.2024 2:06:07 pm</span>
+<span class='badge badge-danger'>02.02.2024 2:06:42 pm</span>
+<span class='badge badge-default'>00:00:34:868</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -120,18 +120,33 @@
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>select mouseHover men option</div>
+        <div class="node" id="2"><span class="badge log fail-bg mr-2">Fail</span>Select gender</div>
       </div>
     </div>
         <div class="">
           <div class="card-body">
-              <div class="step pass-bg" title="com.step.Step_Definition.user_select_men_option()">
-                <span>Given user select  men option</span>
+              <div class="step pass-bg" title="com.step.Step_Definition.user_enter_url(java.lang.String)">
+                <span>When user enter url "https://www.limeroad.com/"</span>
       <div>
       </div>
               </div>
-              <div class="step fail-bg" title="com.step.Step_Definition.user_select_Tshirts_option()">
+              <div class="step pass-bg" title="com.step.Step_Definition.user_click_men()">
+                <span>And user click Men</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.step.Step_Definition.user_select_men_option()">
+                <span>And user select  men option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.step.Step_Definition.user_select_Tshirts_option()">
                 <span>When user select  Tshirts option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="com.step.Step_Definition.user_select_product()">
+                <span>And user select product</span>
       <div>
         <textarea disabled class="code-block">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
@@ -158,9 +173,9 @@ Driver info: driver.version: RemoteWebDriver
 	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-	at com.base.Base_Class.actionmoveElement(Base_Class.java:418)
-	at com.step.Step_Definition.user_select_Tshirts_option(Step_Definition.java:44)
-	at ✽.user select  Tshirts option(file:///C:/Users/hp/eclipse-workspace/Lime_Road/src/test/java/com/feature/Lime.feature:10)
+	at com.base.Base_Class.clickElement(Base_Class.java:271)
+	at com.step.Step_Definition.user_select_product(Step_Definition.java:47)
+	at ✽.user select product(file:///C:/Users/hp/eclipse-workspace/Lime_Road/src/test/java/com/feature/Lime.feature:9)
 	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-NMMTQ37', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
@@ -175,8 +190,8 @@ Driver info: driver.version: RemoteWebDriver
 		at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
 		at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
 		at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-		at com.base.Base_Class.actionmoveElement(Base_Class.java:418)
-		at com.step.Step_Definition.user_select_Tshirts_option(Step_Definition.java:44)
+		at com.base.Base_Class.clickElement(Base_Class.java:271)
+		at com.step.Step_Definition.user_select_product(Step_Definition.java:47)
 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -261,8 +276,8 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:595)
-	at com.base.Base_Class.actionmoveElement(Base_Class.java:418)
-	at com.step.Step_Definition.user_select_Tshirts_option(Step_Definition.java:44)
+	at com.base.Base_Class.clickElement(Base_Class.java:271)
+	at com.step.Step_Definition.user_select_product(Step_Definition.java:47)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -321,15 +336,15 @@ Caused by: java.lang.reflect.InvocationTargetException
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Men')]"}
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\36 59fc10c13cb38081ce67dca"}
   (Session info: chrome=121.0.6167.139)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-NMMTQ37', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.139, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 92d1dc2863db3f5c6967aac4180ecc7b
-*** Element info: {Using=xpath, value=//div[contains(text(),'Men')]}
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.139, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64342}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 162096f672dc6b747f238b4127e6b9d5
+*** Element info: {Using=id, value=659fc10c13cb38081ce67dca}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -342,12 +357,12 @@ Session ID: 92d1dc2863db3f5c6967aac4180ecc7b
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy22.getWrappedElement(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy21.getWrappedElement(Unknown Source)
 	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
 	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
 	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
@@ -355,11 +370,6 @@ Session ID: 92d1dc2863db3f5c6967aac4180ecc7b
 	... 85 more
 </textarea>
       
-      </div>
-              </div>
-              <div class="step skip-bg" title="com.step.Step_Definition.user_select_product()">
-                <span>And user select product</span>
-      <div>Step skipped
       </div>
               </div>
               <div class="step skip-bg" title="com.step.Step_Definition.user_selected_product_item()">
@@ -429,11 +439,11 @@ Session ID: 92d1dc2863db3f5c6967aac4180ecc7b
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:07:51 pm</td>
+<td>14:06:32 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='4'>When user select Tshirts option</a>
+<a href="#" class="linked" test-id='1' id='7'>And user select product</a>
 <div class="">
-<span class="badge badge-default">LimitRoad Order.select mouseHover men option.When user select Tshirts option</span>
+<span class="badge badge-default">LimitRoad Order.Select gender.And user select product</span>
 </div>
 </td>
 </tr>
@@ -481,11 +491,11 @@ Session ID: 92d1dc2863db3f5c6967aac4180ecc7b
 <tbody>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>13:07:51 pm</td>
+<td>14:06:07 pm</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>select mouseHover men option</a>
+<a href="#" class="linked" test-id='1' id='2'>Select gender</a>
 <div class="">
-<span class="badge badge-default">LimitRoad Order.select mouseHover men option</span>
+<span class="badge badge-default">LimitRoad Order.Select gender</span>
 </div>
 </td>
 </tr>
@@ -506,13 +516,13 @@ Session ID: 92d1dc2863db3f5c6967aac4180ecc7b
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 2, 2024 01:07:44 pm</h3>
+<h3>Feb 2, 2024 02:06:03 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 2, 2024 01:08:01 pm</h3>
+<h3>Feb 2, 2024 02:06:42 pm</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -583,10 +593,10 @@ Session ID: 92d1dc2863db3f5c6967aac4180ecc7b
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='14%'><b>1</b> steps passed</small></div>
+<div><small data-tooltip='44%'><b>4</b> steps passed</small></div>
 <div>
-<small data-tooltip='14%'><b>1</b> steps failed,
-<b>5</b> skipped, <b data-tooltip='%'>0</b> others
+<small data-tooltip='11%'><b>1</b> steps failed,
+<b>4</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
 </div>
@@ -602,7 +612,7 @@ Session ID: 92d1dc2863db3f5c6967aac4180ecc7b
 </div></div>
 <script>
 var timeline = {
-"LimitRoad Order":10.29
+"LimitRoad Order":34.868
 };
 </script>
 <div class="row">
@@ -639,10 +649,10 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 1,
+passGrandChild: 4,
 failGrandChild: 1,
 warningGrandChild: 0,
-skipGrandChild: 5,
+skipGrandChild: 4,
 infoGrandChild: 0,
 eventsCount: 5,
 };
