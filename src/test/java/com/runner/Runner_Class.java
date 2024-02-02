@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
                  strict = true,
                  tags= "@regression",
                  plugin = {"pretty", "html:Report/lime.html", "json:Rep/limeroad.json",
-                		 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
+                		   "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"})
 public class Runner_Class extends Base_Class {
 
 	@BeforeClass
